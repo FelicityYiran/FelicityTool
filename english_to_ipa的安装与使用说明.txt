@@ -1,0 +1,16 @@
+git 原地址:https://github.com/mphilli/English-to-IPA
+
+先fork到自己的地方，然后git clone 自己地址 ，如果无法拉回来，就下载压缩包zip，解压到待会在powershell操作的位置
+
+然后打开powershell后，进入到刚刚解押的文件包的目录执行 python -m pip install . 
+ C:\Users\TZB\code\FelicityTool\ipa\English-to-IPA-master> python -m pip install .
+然后就等着Successfully installed English-to-IPA-0.2.1
+然后就可以用了，先进入python
+然后 import eng_to_ipa as ipa
+接着输入测试文本ipa.convert("The quick brown fox jumped over the lazy dog.")
+就会得到'ðə kwɪk braʊn fɑks ʤəmpt ˈoʊvər ðə ˈleɪzi dɔg.'
+
+以后也就知道了如果再想下代码就用上面这个方法，先fork 再git clone或者下载zip,然后在非python但在对应解压包中安装 python -m pip install . 
+ 然后再进入python,import相应的代码，就可以用了
+
+
